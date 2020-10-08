@@ -4,7 +4,7 @@ let numerador= prompt("Digite o numerador");
 
 let denominador= prompt("Digite o denominador");
 
-let resultado= numerador / denominador;
+let resultado= Number(numerador) / Number(denominador);
 
 if(denominador==0)
 alert(`${numerador} não é possivel dividir por ${denominador}`);
